@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "KulminoituvaRegular";
+	src: url("https://fonts.gstatic.com/s/vt323/v17/pxiKyp0ihIEF2isQFJXGdg.woff2");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	overflow: auto;
+}
+
+body {
+	background-color: #1b1b1b;
+	min-height: 100vh;
+	font-family: sans-serif;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h2 {
+	color: #fff;
+	font-family: monospace;
+	font-size: 2rem;
+}
+
+canvas {
+}
